@@ -25,6 +25,8 @@ public class Main {
         var canDrive = age > 17 || (isEmancipated && age >= 16);
         System.out.printf("Você está apto a dirigir? %b\n", canDrive);
 
+        scanner.close();
+
 
         System.out.printf("true && true = %b\n", true && true);
         System.out.printf("false && false = %b\n", false && false);
